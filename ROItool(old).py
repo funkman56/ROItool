@@ -5,7 +5,7 @@ ROI工具
 
 import cv2
 tracker = cv2.TrackerCSRT_create()
-cap = cv2.VideoCapture('vtest.avi')
+cap = cv2.VideoCapture('human.avi')
 initTarget = None
 while True:
     ret, frame = cap.read()
